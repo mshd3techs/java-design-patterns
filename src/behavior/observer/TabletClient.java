@@ -1,4 +1,4 @@
-package com.designpatterns.observer;
+package behavior.observer;
 
 public class TabletClient extends Observer {
 

@@ -1,4 +1,4 @@
-package com.designpatterns.adapter;
+package structrual.adapter;
 
 // connecting old code with new code
 

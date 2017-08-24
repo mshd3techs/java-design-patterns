@@ -1,4 +1,4 @@
-package creational.solid;
+package solid;
 
 class T {}
 

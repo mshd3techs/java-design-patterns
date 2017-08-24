@@ -1,4 +1,4 @@
-package com.designpatterns.observer;
+package behavior.observer;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

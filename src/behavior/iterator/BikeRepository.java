@@ -1,4 +1,4 @@
-package com.designpatterns.iterator;
+package behavior.iterator;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.designpatterns.adapter;
+package structrual.adapter;
 
 import java.util.Arrays;
 import java.util.List;

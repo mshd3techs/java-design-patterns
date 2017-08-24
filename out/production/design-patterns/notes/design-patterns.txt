@@ -1,5 +1,5 @@
-Design Patterns & SOLID Principles in Java
-===========================================
+Design Patterns
+===================
 
 Behavior
 ------------
@@ -16,4 +16,3 @@ Builder
 Structural
 ------------
 Adapter
-Bridge
