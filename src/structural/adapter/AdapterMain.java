@@ -1,4 +1,4 @@
-package structrual.adapter;
+package structural.adapter;
 
 import java.util.Arrays;
 import java.util.List;

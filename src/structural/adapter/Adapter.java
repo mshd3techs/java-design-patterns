@@ -1,4 +1,4 @@
-package structrual.adapter;
+package structural.adapter;
 
 // connecting old code with new code
 

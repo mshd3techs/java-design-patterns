@@ -1,4 +1,4 @@
-package behavior.iterator;
+package behavioral.iterator;
 
 import java.util.*;
 

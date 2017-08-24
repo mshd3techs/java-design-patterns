@@ -1,7 +1,5 @@
-package behavior.iterator;
+package behavioral.iterator;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.*;
 
 class IteratorMain {

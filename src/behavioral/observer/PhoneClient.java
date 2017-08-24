@@ -1,4 +1,4 @@
-package behavior.observer;
+package behavioral.observer;
 
 public class PhoneClient extends Observer {
 

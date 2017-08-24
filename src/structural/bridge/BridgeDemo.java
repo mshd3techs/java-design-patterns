@@ -1,4 +1,4 @@
-package structrual.bridge;
+package structural.bridge;
 
 public class BridgeDemo {
 }

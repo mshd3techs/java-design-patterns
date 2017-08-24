@@ -1,4 +1,4 @@
-package behavior.observer;
+package behavioral.observer;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
