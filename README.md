@@ -1,8 +1,6 @@
-Design Patterns & SOLID Principles in Java
-===========================================
+# Design Patterns & SOLID Principles in Java
 
-Behavioral
-------------
+## Behavioral
 - Chain of Responsibility Pattern
 - Command Pattern
 - Interpreter Pattern
@@ -15,26 +13,23 @@ Behavioral
 - Template Method Pattern
 - Visitor Pattern
 
-Creational
-------------
+## Creational
 - Singleton /
 - Builder /
 - Prototype Pattern
 - Factory Method Pattern
 - AbstractFactory Pattern
 
-Structural
-------------
-Adapter Design Pattern /
-Bridge Design Pattern
-Composite Pattern
-Decorator Pattern
-Facade Pattern
-Flyweight Pattern
-Proxy Pattern
+## Structural
+- Adapter Design Pattern /
+- Bridge Design Pattern
+- Composite Pattern
+- Decorator Pattern
+- Facade Pattern
+- Flyweight Pattern
+- Proxy Pattern
 
-Resources
-------------
+## Resources
 - Video:
     - https://app.pluralsight.com/library/courses/design-patterns-java-behavioral 
     - https://app.pluralsight.com/library/courses/design-patterns-java-creational
