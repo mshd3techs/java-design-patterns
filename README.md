@@ -3,17 +3,17 @@ Design Patterns & SOLID Principles in Java
 
 Behavior
 ------------
-Iterator
-Observer
+- Iterator
+- Observer
 
 Creational
 ------------
-Singleton
-Strategy
-Factory
-Builder
+- Singleton
+- Strategy
+- Factory
+- Builder
 
 Structural
 ------------
-Adapter
-Bridge
+- Adapter
+- Bridge
