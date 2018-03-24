@@ -1,48 +1,53 @@
-package behavioral.iterator;
+package com.pluralsight.iterator;
 
-import java.util.*;
+import java.util.Iterator;
+
 
 public class BikeRepository implements Iterable<String> {
+	
+	private String [] bikes;
+	private int index;
+	
+	public BikeRepository() {
+		bikes = new String[10];
+		index = 0;
+	}
+	
+	public void addBike(String bike) {
+		if(index == bikes.length) {
+			String [] largerBikes = new String[bikes.length + 5];
+			System.arraycopy( bikes, 0, largerBikes, 0, bikes.length );
+			bikes = largerBikes;
+			largerBikes = null;
+		}
+		
+		bikes[index] = bike;
+		index++;
+	}
 
-    private String bikes[];
-    private int index;
+	@Override
+	public Iterator<String> iterator() {
+		Iterator<String> it = new Iterator<String>() {
 
-    BikeRepository() {
-        this.bikes = new String[10];
-        this.index = 0;
-    }
+			private int currentIndex = 0;
+			
+			@Override
+			public boolean hasNext() {
+				return currentIndex < bikes.length && bikes[currentIndex] != null;
+			}
 
-    public void addBike(String bike) {
-        if (index == bikes.length) {
-            String largeBikes[] = new String[bikes.length + 5];
-            System.arraycopy(bikes, 0, largeBikes,0, bikes.length);
-            bikes = largeBikes;
-            largeBikes = null;
-        }
+			@Override
+			public String next() {
+				return bikes[currentIndex++];
+			}
 
-        bikes[index] = bike;
-        index++;
-    }
-
-    public Iterator<String> iterator() {
-        Iterator<String> it = new Iterator<String>() {
-            @Override
-            public boolean hasNext() {
-                return false;
-            }
-
-            @Override
-            public String next() {
-                return null;
-            }
-
-            @Override
-            public void remove() {
-
-            }
-        };
-
-        return it;
-    }
-
+			@Override
+			public void remove() {
+				throw new UnsupportedOperationException();
+			}
+			
+		};
+		
+		return it;
+	}
 }
