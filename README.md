@@ -1,18 +1,5 @@
 # Design Patterns & SOLID Principles in Java
 
-## Behavioral
-- Chain of Responsibility Pattern
-- Command Pattern
-- Interpreter Pattern
-- Iterator Pattern /
-- Mediator Pattern
-- Memento Pattern
-- Observer Pattern /
-- State Pattern
-- Strategy Pattern
-- Template Method Pattern
-- Visitor Pattern
-
 ## Creational
 - Singleton /
 - Builder /
@@ -28,6 +15,19 @@
 - Facade Pattern
 - Flyweight Pattern
 - Proxy Pattern
+
+## Behavioral
+- Chain of Responsibility Pattern
+- Command Pattern
+- Interpreter Pattern
+- Iterator Pattern /
+- Mediator Pattern
+- Memento Pattern
+- Observer Pattern /
+- State Pattern
+- Strategy Pattern
+- Template Method Pattern
+- Visitor Pattern
 
 ## Resources
 - Video:
